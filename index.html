@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangoDB 04</title>
+</head>
+<body>
+    <h1>Cadastro de Alunos</h1>
+
+    <form action="/alunos" method="POST">
+        <label for="nome">Nome do Aluno:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite o nome do Aluno" required><br><br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" placeholder="Digite a idade do Aluno" required><br><br>
+
+        <label for="curso">Curso:</label>
+        <input type="text" id="curso" name="curso" placeholder="Digite o curso do Aluno" required><br><br>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <p><a href="/alunos">Ver alunos cadastrados</a></p>
+</body>
+</html>

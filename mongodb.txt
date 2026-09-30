@@ -1,0 +1,3 @@
+douglasbr26072003_db_user
+GPj6fiLWakNrQDRv
+mongodb+srv://douglasbr26072003_db_user:<db_password>@mongo04.prowmf0.mongodb.net/?appName=Mongo04
